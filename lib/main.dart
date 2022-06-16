@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:bmi_calculator/pages/home_page.dart';
 import 'package:bmi_calculator/pages/secondPage.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +23,13 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.purple,
       ),
       home: HomePage(),
+      initialRoute: HomePage.routeName ,
+      routes: {
+
+        HomePage.routeName:(context) => HomePage(),
+        SecondPage.routeName: (context) => SecondPage(),
+
+      },
     );
   }
 }
