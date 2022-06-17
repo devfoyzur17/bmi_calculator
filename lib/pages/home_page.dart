@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
                                     color: Colors.green, width: 1.5)),
                             child: FittedBox(
                                 child: Text(
-                              "Height:  ${_currentFirstSliderValue.toStringAsFixed(1)} kg",
+                              "Weight:  ${_currentFirstSliderValue.toStringAsFixed(1)} kg",
                               style: TextStyle(
                                   color: Colors.green,
                                   fontWeight: FontWeight.w500),
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                                     color: Colors.green, width: 1.5)),
                             child: FittedBox(
                                 child: Text(
-                              "Weight:  ${_currentSecondSliderValue.toStringAsFixed(2)} m",
+                              "Height:  ${_currentSecondSliderValue.toStringAsFixed(2)} m",
                               style: TextStyle(
                                   color: Colors.green,
                                   fontWeight: FontWeight.w500),
